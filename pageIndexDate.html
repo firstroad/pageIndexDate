@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Index Date</title>
+		<script>
+			function Main(){
+				window.location.href = "http://google.com/search?q=inurl:"+document.getElementById('webpage').value+"&as_qdr=y15";
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Find when a webpage was first indexed by Google</h1>
+		<input type="text" name="webpage" id="webpage">
+		<input type="submit" value="Go go go!" onclick="Main()">
+	</body>
+</html>
